@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Подружка API",
   "logo": {
-    "dark": "/logo/dark.png",
+    "dark": "https://www.podrygka.ru/images/logo.png",
     "light": "/logo/light.png"
   },
   "favicon": "/favicon.png",
@@ -14,28 +14,18 @@
   "topbarLinks": [
     {
       "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "url": "/api-reference/"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "/api-reference/"
   },
   "anchors": [
     {
       "name": "API Reference",
       "icon": "rectangle-terminal",
       "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
     }
   ],
   "navigation": [
@@ -58,8 +48,6 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/AlexanderDronkin/podrygka-doc"
   }
 }
